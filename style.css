@@ -1,0 +1,65 @@
+/* common css start */
+* {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.commonButton {
+    text-decoration: none;
+    color: #000;
+    background-color: #16BAC5;
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-weight: 900;
+    display: inline-block;
+    transition: all .5s ease;
+}
+
+.commonButton:hover {
+    transform: scale(.9);
+}
+
+/* common css end */
+
+
+/* diet style start */
+.dietDetails {
+    display: flex;
+}
+
+.dietTitle {
+    width: 40%;
+}
+
+.dietTitle h1 {
+    font-size: 50px;
+}
+
+.dietTitle span {
+    color: #16BAC5;
+    text-decoration: underline;
+}
+
+.skipStyle {
+    transition: all .5s ease;
+    display: inline-block;
+}
+
+.dietDetails:hover .skipStyle {
+    color: #16b9c5da;
+    transform: scale(1.07);
+}
+
+.dietTitle p {
+    color: #828282;
+    width: 320px;
+    margin: 30px 0;
+}
+
+
+.dietImg {
+    width: 40%;
+    background-image: url(images/shapes/Group\ 8449.png);
+}
+
+/* diet style end */
