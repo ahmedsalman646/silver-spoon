@@ -24,11 +24,12 @@
 
 /* diet style start */
 .dietDetails {
-    display: flex;
-}
-
-.dietTitle {
-    width: 40%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .dietTitle h1 {
@@ -56,10 +57,42 @@
     margin: 30px 0;
 }
 
-
 .dietImg {
-    width: 40%;
-    background-image: url(images/shapes/Group\ 8449.png);
+    text-align: center;
+}
+
+.dietImg img {
+    width: 80%;
+    border-radius: 20px;
 }
 
 /* diet style end */
+
+
+
+/* about me style start */
+.aboutDetails {
+    display: grid;
+    align-items: center;
+    background-color: #16b9c51d;
+    margin: 100px 0;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.aboutImg img {
+    width: 320px;
+}
+
+
+.aboutTitle h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.aboutTitle p {
+    color: #828282;
+    margin: 40px 0 30px 0;
+}
+
+/* about me style end */
