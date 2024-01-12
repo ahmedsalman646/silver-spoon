@@ -205,3 +205,32 @@ p {
 }
 
 /* social section end */
+
+
+/* footer section start */
+footer {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #16b9c545;
+}
+
+footer h2 {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    transition: all .5s ease;
+}
+
+footer:hover h2 {
+    letter-spacing: 2.5px;
+}
+
+footer h2>span {
+    color: #16BAC5;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+/* footer section end */
