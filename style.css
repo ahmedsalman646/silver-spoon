@@ -8,6 +8,7 @@
     text-decoration: none;
     color: #000;
     background-color: #16BAC5;
+    color: #fff;
     padding: 20px 60px;
     border-radius: 50px;
     font-weight: 900;
@@ -164,8 +165,43 @@ p {
     font-size: 24px;
 }
 
-.recipesItem p {
-    letter-spacing: 1.2px;
+/* my recipes section end */
+
+
+
+/* social section start */
+.socialDetails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    padding: 80px 40px;
+    box-shadow: 0 0 40px rgb(0, 0, 0, 0.15);
+    margin: 100px;
+    border-radius: 20px;
 }
 
-/* my recipes section end */
+.socialInfo h2 {
+    font-size: 42px;
+    letter-spacing: 2PX;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #16b9c552;
+    transition: all 1s ease;
+}
+
+.socialInfo:hover h2 {
+    box-shadow: 0 0 40px #16b9c597;
+}
+
+.socialInfo p {
+    letter-spacing: 2px;
+    transition: all .5s ease;
+}
+
+.socialInfo:hover p {
+    transform: scale(1.1);
+}
+
+/* social section end */
